@@ -69,7 +69,7 @@
 					<!--
 					<imageName>${docker.image.prefix}/${project.artifactId}</imageName>
 					-->
-					<imageName>springCloudEureka</imageName>
+					<imageName>${project.artifactId}</imageName>
 					<dockerDirectory>src/main/docker</dockerDirectory>
 					<resources>
 						<resource>
